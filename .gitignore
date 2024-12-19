@@ -1,0 +1,57 @@
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Debug and runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+out-tsc/
+.tmp/
+
+# Coverage results
+coverage/
+.nyc_output/
+
+# Test-related files
+/test-results/
+.junit-reports/
+*.spec.*
+*.test.*
+
+# Local files
+*.local
+*.bak
+*.old
+*.temp
+*.tmp
+
+# IDE and editor-specific files
+.idea/
+
+# MongoDB
+*.lock
+data/
+dump/
+
+# PM2 (Process Manager) specific
+pm2-logs/
+pids/
+.vercel

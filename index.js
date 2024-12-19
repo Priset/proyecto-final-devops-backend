@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/api/song-recommendations', songRecommendationRoutes);
 
 mongoose
-    .connect(process.env.MONGO_URI)
+    .connect(process.env.DATABASE_URL)
     .then(() => console.log('Conexión a MongoDB exitosa'))
     .catch((error) => console.error('Error conectando a MongoDB:', error));
 
